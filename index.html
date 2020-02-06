@@ -183,7 +183,14 @@
                 <h5>Pratice Score on Code Signal</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count">today.getHours()</div>
+					<script>
+						function myFunction() {
+						  var d = new Date();
+						  var n = d.getHours();
+						  document.getElementById("demo").innerHTML = n;
+						}
+					</script>
+                <div class="stats__count">myFunction()</div>
                 <h5>Cups of Coffee</h5>
             </div>
             <div class="col-block stats__col">
