@@ -1,0 +1,47 @@
+
+@media (min-width: 360px){
+	.home-title{
+		padding-left: 130px;
+	}
+	.home-about{
+		padding-left: 120px;
+	}
+	.social{
+		padding-left: 20px;
+	}
+}
+@media (min-width: 1200px){
+	body{
+		background-size: 100%;
+	}
+	.home-title{
+		padding-left: 860px;
+	}
+	.home-about{
+		padding-left: 835px;
+	}
+	.footer-container{
+		padding-top: 450px;
+	}
+	.footer{
+		padding-top: 20px;
+	}
+	.social{
+		padding-left: 45px;
+	}
+
+}
+@media (min-width: 1920px){
+	.home-title{
+		padding-left: 860px;
+	}
+	.home-about{
+		padding-left: 835px;
+	}
+	.footer-container{
+		padding-top: 550px;
+	}
+	.social{
+		padding-left: 45px;
+	}
+}
